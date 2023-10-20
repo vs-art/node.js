@@ -1,0 +1,8 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "node.js sandbox",
+  "main": "run.js",
+  "author": "Vasyukov Sergey",
+  "license": "ISC"
+}
