@@ -4,3 +4,5 @@ package-lock.json
 
 # IDEs and editors
 .idea
+
+tmp
