@@ -30,3 +30,11 @@ fs.rmdir(path.resolve(__dirname, '..', 'tmp'), (err) => {
     }
     console.log('folder removed successfully');
 });
+
+// asynchronous reading file
+fs.readFile(path.resolve(__dirname, '..', 'tmp', 'log1.txt'), (err, data) => {
+    if (err) {
+        throw err;
+    }
+   console.log('trying to read file "log1.txt":\r\n', data);
+});
